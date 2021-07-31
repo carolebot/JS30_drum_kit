@@ -1,0 +1,56 @@
+html{
+  background:url('./3897728.jpg')bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.07s ;
+  
+}
+
+.key {
+  border: 2px solid gold;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 5px;
+  transition: all .07s ease;
+  color:lightgray;
+  text-shadow: 0 1px 1px black;
+  background: rgba(0,0,0,0.4);
+}
+
+kbd {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+span {
+  display: block;
+  font-size: 8px;
+  text-align: center;
+  color:white;
+  letter-spacing: 1px;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color:white;
+  box-shadow: 0 0 10px #ffc600;
+}
