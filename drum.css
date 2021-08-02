@@ -2,11 +2,11 @@ html{
   background:url('./3897728.jpg')bottom center;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 
 html, body {
+  /* box model */
   margin: 0;
   padding: 0;
   font-family: sans-serif;
@@ -14,43 +14,61 @@ html, body {
 
 
 .keys {
+  /* display */
   display: flex;
   flex: 1;
-  min-height: 100vh;
-  margin: 10px;
   align-items: center;
   justify-content: center;
-  transition: all 0.07s ;
   
+  /* box model */
+  min-height: 100vh;
+  margin: 10px;
+
+  /* animation */
+  transition: all 0.07s ;
 }
 
 .key {
+  /* box model */
   border: 2px solid gold;
   border-radius: 5px;
   margin: 0.5rem;
   padding: 5px;
-  transition: all .07s ease;
+  
+  /* font or other */
+  background: rgba(0,0,0,0.4);
   color:lightgray;
   text-shadow: 0 1px 1px black;
-  background: rgba(0,0,0,0.4);
+
+  /* animation */
+  transition: all .07s ease;
 }
 
 kbd {
+  /* display */
   display: block;
   text-align: center;
+
+  /* font or other */
   font-size: 30px;
 }
 
 span {
+  /* display */
   display: block;
-  font-size: 8px;
   text-align: center;
+
+  /* font or other */
+  font-size: 8px;
   color:white;
   letter-spacing: 1px;
 }
 
 .playing {
-  transform: scale(1.1);
+  /* box model */
   border-color:white;
   box-shadow: 0 0 10px #ffc600;
+
+  /* animation */
+  transform: scale(1.1);
 }
